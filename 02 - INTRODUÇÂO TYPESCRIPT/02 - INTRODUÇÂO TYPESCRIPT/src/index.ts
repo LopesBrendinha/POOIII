@@ -16,7 +16,8 @@ const produto2 : Produto = new Produto(6899, "Uma camisa do flamengo 100% origin
 const produto3 : Produto = new Produto(6799, "Uma camisa do Athletico Paranaense 100% original, so foi roubada", 157.99);
 const produtos : Produto[] = [produto1, produto2, produto3];
 
-const vendaB : Venda = new Venda(1234, 15042013, clienteB, produtos);
+const vendaB : Venda = new Venda(1234, 15042013, clienteB, produtos
+);
 
 console.log("Este é o valor total da compra" + vendaB.calcularTotal());
 console.log("Cliente: " + vendaB.cliente.nome);

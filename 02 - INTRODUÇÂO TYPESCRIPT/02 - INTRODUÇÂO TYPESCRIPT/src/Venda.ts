@@ -7,7 +7,7 @@ export default class Venda{
     private _cliente: Cliente;
     private _produtos: Produto[];
   
-    constructor(codigo: number, data: number, cliente: Cliente) {
+    constructor(codigo: number, data: number, cliente: Cliente, produtoa: Produto[]){
       this._codigo = codigo;
       this._data = data;
       this._cliente = cliente;
