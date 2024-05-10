@@ -8,6 +8,8 @@ const currentCompany = ECompany.IFOOD;
 const type = "food"
 let factory: IDeliveryFactory;
 
+
+
 switch(currentCompany){
     case ECompany.IFOOD:
         factory = new IFoodDelivery;

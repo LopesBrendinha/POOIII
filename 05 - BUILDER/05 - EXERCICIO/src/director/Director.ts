@@ -13,7 +13,7 @@ export default class Director{
         this.builder.setBread(Bread.FRANCES);
         this.builder.setProtein(Protein.HAMBURGUER);
         this.builder.setSalad(Salad.RUCULA);
-        this.builder.addSauces(new Sauce("Mostarda"));
+        this.builder.addSauces(new Sauce("Mostardaa"));
         this.builder.addSauces(new Sauce("Maionese"));
         this.builder.addSauces(new Sauce("Molho Verde"));
         this.builder.addSauces(new Sauce("Catchup"));
